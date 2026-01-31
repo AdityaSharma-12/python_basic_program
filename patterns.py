@@ -216,3 +216,78 @@ o/p:
      *    '''
 
 
+'''a=int(input("Enter the range of pattern:"))
+for i in range (1,a+1):
+    for k in range(a-i):
+        print(" ",end="")
+    for j in range(i):
+        print("*",end=" ")
+    for k in range(a-i):
+        print(" ",end=" ")
+    for j in range(i):
+        print("*",end=" ")
+    print()
+o/p:
+     *           * 
+    * *         * *
+   * * *       * * *
+  * * * *     * * * *
+ * * * * *   * * * * *
+* * * * * * * * * * * *                  '''
+
+
+'''for i in range (1,a+1):
+    for j in range(i):
+        print("*",end="")
+    for k in range(a-i):
+        print(" ",end=" ")
+    for j in range(i):
+        print("*",end="")
+    print()
+for k in range(1,a):
+    for p in range(a-k):
+        print("*",end="")
+    for b in range(k):
+        print(" ",end=" ")
+    for p in range(a-k):
+        print("*",end="")
+    print()
+o/p:
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *   '''
+
+
+'''for i in range (1,a+1):
+    for k in range(i-1):
+        print(" ",end="")
+    for j in range(a-i+1):
+        print("*",end=" ")
+    print()
+for p in range(2,a+1):
+    for b in range (a-p):
+        print(" ",end="")
+    for l in range(p):
+        print("*",end=" ")
+    print()
+o/p:
+* * * * * * 
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * *  '''
+
